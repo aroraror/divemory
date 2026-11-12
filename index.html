@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DiveMory — 다이버를 위한 해양생물 도감·사진 퀴즈</title>
+<meta name="description" content="DiveMory는 스쿠버 다이버가 바다 생물을 사진으로 익히는 도감·퀴즈 앱입니다.">
+<link rel="icon" href="icon.png">
+<style>
+:root{--deep:#04142b;--navy:#0a2342;--card:#10305a;--line:#2b4f80;--ivory:#f4efe2;--mist:#a9bdd6;--gold:#e9c77a}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,var(--navy),var(--deep) 60%);color:var(--ivory);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px 56px}
+header{text-align:center;padding:36px 0 8px}
+header img.icon{width:96px;height:96px;border-radius:22px;box-shadow:0 8px 28px rgba(0,0,0,.45)}
+h1{font-size:34px;margin:16px 0 4px;letter-spacing:.5px}
+.tag{color:var(--gold);font-size:17px;margin:0}
+.status{display:inline-block;margin-top:14px;padding:4px 14px;border:1px solid var(--gold);border-radius:999px;color:var(--gold);font-size:14px}
+img.hero{width:100%;height:auto;border-radius:16px;margin:24px 0 8px;display:block}
+h2{font-size:21px;color:var(--gold);margin:36px 0 10px}
+p{margin:8px 0;color:var(--ivory)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.card{background:rgba(16,48,90,.7);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.card h3{margin:0 0 4px;font-size:17px}
+.card p{margin:0;color:var(--mist);font-size:15px}
+ul{padding-left:20px;margin:8px 0;color:var(--mist)}
+li{margin:4px 0}
+li b{color:var(--ivory);font-weight:600}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--mist);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <img class="icon" src="icon.png" alt="DiveMory 앱 아이콘" width="96" height="96">
+  <h1>DiveMory</h1>
+  <p class="tag">다이버를 위한 해양생물 도감 · 사진 퀴즈</p>
+  <span class="status">Android 출시 준비 중</span>
+</header>
+
+<img class="hero" src="hero.png" alt="DiveMory" width="1024" height="500">
+
+<h2>어떤 앱인가요</h2>
+<p>DiveMory는 스쿠버 다이버가 바다에서 만나는 생물을 사진으로 익히는 앱입니다. 다이빙을 떠나기 전에 그 지역에서 볼 수 있는 생물을 미리 공부하고, 다녀온 뒤에는 본 생물을 기록합니다.</p>
+
+<h2>주요 기능</h2>
+<div class="grid">
+  <div class="card"><h3>도감</h3><p>해양생물 약 300항목을 사진, 이름, 구별 특징과 함께 봅니다. 인터넷 없이도 볼 수 있습니다.</p></div>
+  <div class="card"><h3>사진 퀴즈</h3><p>사진을 보고 이름을 맞히며 익힙니다. 틀린 생물은 다시 나와 복습됩니다.</p></div>
+  <div class="card"><h3>지역별 학습</h3><p>시밀란, 제주, 아닐라오, 코모도 등 다이빙 지역을 골라 그 지역 생물만 공부합니다.</p></div>
+  <div class="card"><h3>내가 본 생물</h3><p>다이빙에서 본 생물을 날짜·장소와 함께 기록합니다. 기록은 내 기기에 저장됩니다.</p></div>
+  <div class="card"><h3>친구 랭킹</h3><p>친구와 랭킹전 점수를 겨룹니다. 서로 수락한 친구끼리만 순위가 보입니다.</p></div>
+  <div class="card"><h3>내용 오류 제보</h3><p>도감에서 틀린 사진이나 설명을 발견하면 바로 알릴 수 있습니다.</p></div>
+</div>
+
+<h2>카카오 로그인과 친구 찾기</h2>
+<ul>
+  <li><b>로그인 없이도</b> 도감, 사진 퀴즈, 내 기록을 모두 쓸 수 있습니다.</li>
+  <li><b>카카오 로그인</b>은 친구 랭킹과 내용 오류 제보에만 씁니다. 로그인할 때는 닉네임만 동의를 받습니다.</li>
+  <li><b>카카오 친구 찾기</b>는 카카오톡 친구 중 DiveMory를 쓰는 사람을 보여 주어, 그 친구를 초대하기 쉽게 돕는 기능입니다. 사용자가 이 기능을 누르고 따로 동의했을 때만 친구 목록을 조회합니다.</li>
+  <li>조회한 카카오톡 친구 목록은 <b>화면에 보여 주는 데만 쓰고 서버나 기기에 저장하지 않습니다.</b></li>
+  <li>목록에 보인다고 친구가 되지 않습니다. 초대 코드를 주고받고 <b>상대가 수락해야</b> 친구가 되며, 그 뒤에만 서로의 순위가 보입니다.</li>
+  <li>친구에게 카카오톡 메시지를 자동으로 보내지 않습니다.</li>
+  <li>앱 안에서 언제든 로그아웃하고 계정을 삭제할 수 있습니다.</li>
+</ul>
+
+<h2>사진 출처</h2>
+<p>도감의 사진은 직접 촬영한 사진과, 상업적 이용이 허용된 공개 라이선스 사진을 사용합니다. 각 사진의 저작자와 라이선스는 앱 안에 표시합니다.</p>
+
+<footer>
+  <p>DiveMory · 운영: 아라오라</p>
+  <p>이 페이지는 출시 전 서비스 소개 페이지입니다. 기능과 내용은 출시 전에 바뀔 수 있습니다.</p>
+</footer>
+</div>
+</body>
+</html>
